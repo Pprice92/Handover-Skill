@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat .claude/memory/handover.md 2>/dev/null || echo 'No handover file found yet.'"
+          }
+        ]
+      }
+    ]
+  }
+}
