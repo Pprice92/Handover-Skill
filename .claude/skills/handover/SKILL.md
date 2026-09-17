@@ -13,8 +13,11 @@ Include:
 - Explicit next steps for the following session, in order
 
 Then run these commands in the terminal:
+
+```
 git add .claude/memory/handover.md
 git commit -m "chore: handover checkpoint"
 git push
+```
 
 Confirm the push succeeded before finishing.
